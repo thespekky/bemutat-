@@ -2,5 +2,40 @@ div.header
 {
     background-color: rgba(192, 68, 10, 0.5) ;
     padding: 15px;
+    height: 60px;
     color: black;
+}
+.tartalom
+{
+    padding: 20px;
+}
+
+.footer
+{
+    border-radius:10cm;
+    padding: 7px;
+    margin-top: 70px;
+    background-color: blue;
+    color: white;
+}
+.navbar li
+{
+    background-color: rgba(13, 213, 248, 0.924);
+    float: left;
+    list-style-type: none;
+    padding: 8px;
+  margin-left: 5px;
+  box-shadow: 0 3px 7px rgba(10,2,8,0.09), 0 3px 7px rgba(10,2,8,0.30);
+  text-shadow: 2px 5px 10px red;
+
+}
+.navbar li:hover
+{
+    background-color: white;
+    color: black;
+}
+.oldal
+{
+background-color: royalblue;
+    float: right;
 }
