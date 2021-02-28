@@ -1,22 +1,24 @@
+body
+{
+   background-color:rgb(255, 238, 0);
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding: 20px;
+}
+h2
+{ 
+    background-color: rgba(0, 0, 0, 0.212);
+    color: brown;
+    text-shadow: 7px 3px 5px black;
+}
 div.header
 {
     background-color: rgba(192, 68, 10, 0.5) ;
-    padding: 15px;
-    height: 60px;
+    padding-top: 15px;
+    height: 160px;
     color: black;
-}
-.tartalom
-{
-    padding: 20px;
-}
-
-.footer
-{
-    border-radius:10cm;
-    padding: 7px;
-    margin-top: 70px;
-    background-color: blue;
-    color: white;
+    outline-style:double;
+    outline-color: black;
 }
 .navbar li
 {
@@ -25,7 +27,7 @@ div.header
     list-style-type: none;
     padding: 8px;
   margin-left: 5px;
-  box-shadow: 0 3px 7px rgba(10,2,8,0.09), 0 3px 7px rgba(10,2,8,0.30);
+  box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
   text-shadow: 2px 5px 10px red;
 
 }
@@ -34,8 +36,80 @@ div.header
     background-color: white;
     color: black;
 }
+.tart2{
+    width: 1400px;
+    
+}
+.tart2 ul li{
+   float: left;
+   padding-right: 26px;
+    
+}
+img
+{
+    opacity: 0.8;
+}
+img:hover
+{
+    opacity: 1;
+} 
+
 .oldal
 {
-background-color: royalblue;
+    padding-left: 30px;
     float: right;
+    text-align: justify;
+}
+ul
+{
+    list-style-type: none;
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+footer
+{
+    text-align: left;
+    height: 45px;
+    display: block;
+    border-radius:10cm;
+    padding: 7px;
+    padding-right: 10px;
+    margin-top: 70px;
+    background-color: blue;
+    color: white;
+    
+}
+@media only screen and (max-width: 1600px)
+{
+    .tartalom{width:1200px;}
+    .tart2{width:1200px;}
+
+}
+@media only screen and (max-width: 1100px)
+{
+    .tartalom{width:8000px;}
+    .tart2{width:800px;}
+
+}
+@media only screen and (max-width: 800px)
+{
+    .tartalom{width:600px;}
+    .tart2{width:600px;}
+    img#rocket{width: 100px;}
+    img{width:  50px;}
+}
+@media only screen and (max-width: 550px)
+{ .tartalom{width:500px;}
+.tart2{width:500px;}
+    img{width: 50px;}
+    .navbar li{background-color: rgba(13, 213, 248, 0.924);
+        float: none;
+        list-style-type: none;
+      margin-left: 5px;
+      box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
+      text-shadow: 2px 5px 10px red;}
 }
