@@ -60,7 +60,6 @@ img:hover
     width: 15%;
     padding-left: 30px;
     float: left;
-    text-align: justify;
 }
 ul
 {
@@ -86,33 +85,22 @@ footer
     color: white;
     
 }
-@media only screen and (max-width: 1600px)
-{
-    .tartalom{width:1200px;}
-    .tart2{width:1200px;}
-
-}
-@media only screen and (max-width: 1100px)
-{
-    .tartalom{width:8000px;}
-    .tart2{width:800px;}
-
-}
 @media only screen and (max-width: 800px)
 {
-    .tartalom{width:600px;}
-    .tart2{width:600px;}
+    .tart2{width:55%;}
+    .oldal{width: 10%;}
     img#rocket{width: 100px;}
-    img{width:  50px;}
+    img{width: 50px;}
 }
 @media only screen and (max-width: 550px)
-{ .tartalom{width:500px;}
-.tart2{width:500px;}
-    img{width: 50px;}
+{ div.header{ height: 180px;}
+.tart2{width:50%;}
+img#rocket{width: 80px;}
+    img{width: 40px;}
     .navbar li{background-color: rgba(13, 213, 248, 0.924);
-        float: none;
+        float: left;
         list-style-type: none;
-      margin-left: 5px;
+      margin-top: 5px;
       box-shadow: 0 3px 7px rgba(0,0,0,0.09), 0 3px 7px rgba(0,0,0,0.9);
       text-shadow: 2px 5px 10px red;}
 }
